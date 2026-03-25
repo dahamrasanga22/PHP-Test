@@ -1,18 +1,17 @@
-
-
-<!-- write php program to print
- numbers 1 to 10 -->
+<!-- 1st 5 even numbers -->
 
 
 <?php
-$num = 1;
+$total = 0;
+$i = 0;
+$num = 0  ;
 
-while($num <= 10){
-    echo "$num <br>";
-    $num++;  
+while ($i < 5) {
+    if ($num % 2 == 0) {
+        $total += $num;
+        $i++;
+    }
+    $num++;
 }
+echo "Total: " . $total;
 ?>
-
-<!-- if u didn't increment the value of num
-it will be an infinite loop because the
-condition will always be true and the loop will never end. -->
