@@ -7,5 +7,6 @@ define("SIBA" , "Sri Lanka International Buddist Accademy");
 
 echo(defined("SIBA2"))
 //defined siba
+//deparak write wela define ekk
 
 ?>

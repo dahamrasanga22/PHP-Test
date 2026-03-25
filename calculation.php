@@ -1,5 +1,3 @@
-
-
 <?php
 
 function Display()
@@ -7,6 +5,7 @@ function Display()
     $x = 1;
     $x++;
     echo ($x);
+    
 }
 Display();
 Display();
